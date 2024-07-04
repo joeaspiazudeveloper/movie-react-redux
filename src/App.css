@@ -1,0 +1,23 @@
+body {
+  background-color: #151515;
+}
+
+a.active {
+  @apply bg-gray-900 text-white;
+}
+
+.btn {
+  @apply font-bold py-2 px-4 rounded;
+}
+
+.btn-movie {
+  @apply text-white;
+}
+
+.btn-movie:hover {
+  opacity: .8;
+}
+
+.btn-getmovies {
+  margin-left: 10px;
+}
